@@ -5,7 +5,7 @@ from PIL import Image
 import io
 
 # Load the model
-model = tf.keras.models.load_model("keras_model.h5")
+model = tf.keras.models.load_model("models/keras_model.h5")
 
 # Define class labels based on your training
 class_names = ['Normal', 'Defective']  # Modify if you used different class names
